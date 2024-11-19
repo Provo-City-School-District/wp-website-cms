@@ -16,7 +16,7 @@ services:
       driver: syslog
       options:
         syslog-address: "udp://localhost:514"
-        tag: "amelia-db"
+        tag: "cms-db"
   #Web
   cms_wp:
     depends_on:
@@ -50,7 +50,7 @@ services:
       driver: syslog
       options:
         syslog-address: "udp://localhost:514"
-        tag: "amelia-db"
+        tag: "cms-db"
   #PhpMyAdmin
   cms_myadmin:
     image: phpmyadmin:latest
@@ -67,7 +67,7 @@ services:
       driver: syslog
       options:
         syslog-address: "udp://localhost:514"
-        tag: "amelia-db"
+        tag: "cms-db"
 volumes:
   db_data:
   wp-content:
