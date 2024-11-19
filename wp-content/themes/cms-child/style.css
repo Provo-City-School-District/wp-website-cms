@@ -42,7 +42,8 @@ Fonts
 Theme specific coloring
 ================================================================================================================*/
 #mainSidebar,
-#mainFooter {
+#mainFooter,
+#mainHeader {
 	background-color: var(--primary-color);
 }
 
@@ -196,10 +197,6 @@ header styles
 
 #mainSidebar h2 {
 	font-size: 1.6em;
-}
-
-#mainHeader {
-	background-color: var(--theme-black);
 }
 
 #mainHeader .contactinfo li span.phone,
