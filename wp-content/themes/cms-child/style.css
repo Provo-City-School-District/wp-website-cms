@@ -268,7 +268,7 @@ header styles
 Main Menu
 ================================================================================================================*/
 #mainMenu {
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	font-family: 'Arial Black', Arial;
 	box-shadow: 1px 3px 5px var(--accent-color) !important;
 	top: 173px;
@@ -279,7 +279,7 @@ Main Menu
 }
 
 #mainMenu>ul>li>a:hover {
-	color: var(--theme-white);
+	color: var(--link-hover-color);
 }
 
 .mega-menu {
@@ -422,7 +422,6 @@ Calendar plugin styling
 	display: none;
 }
 
-/*#mainSidebar .simcal-default-calendar-list .simcal-event-details .simcal-event-start-date {display: none;} */
 .single-page .simcal-day-label {
 	background-color: var(--primary-color);
 }
