@@ -44,7 +44,7 @@
 		<h1><a href="https://provo.edu">Provo City School District</a></h1>
 	</header>
 	<header id="mainHeader">
-		<a href="<?php bloginfo('siteurl'); ?>"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/header-logo.png'; ?>" alt="Timpview Logo" id="siteLogo" />
+		<a href="<?php bloginfo('siteurl'); ?>"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/header-logo.png?v=2'; ?>" alt="Timpview Logo" id="siteLogo" />
 			<h1>Centennial Middle School</h1>
 		</a>
 		<aside>
