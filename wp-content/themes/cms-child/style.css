@@ -178,13 +178,14 @@ header styles
 
 #mainHeader #siteLogo {
 	position: absolute;
-	max-width: 420px;
+	max-width: 100px;
+	top: 10px
 }
 
 #mainHeader h1 {
 	position: absolute;
-	left: -9999px;
-	top: 8px;
+	left: 140px;
+	top: 30px;
 	color: var(--theme-white);
 	font-family: 'Arial Black', Arial;
 	font-weight: 800;
@@ -237,6 +238,12 @@ header styles
 		position: inherit;
 	}
 
+	#mainHeader h1 {
+		position: inherit;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
 }
 
 
@@ -252,6 +259,10 @@ header styles
 	#mainHeader #cludo-search-form .search-input,
 	#mainHeader #cludo-search-form .search-submit {
 		top: 0;
+	}
+
+	#mainHeader h1 {
+		width: 100%;
 	}
 }
 
