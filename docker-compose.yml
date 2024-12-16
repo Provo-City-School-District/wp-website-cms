@@ -50,7 +50,7 @@ services:
       driver: syslog
       options:
         syslog-address: "udp://localhost:514"
-        tag: "cms-db"
+        tag: "cms-wp"
   #PhpMyAdmin
   cms_myadmin:
     image: phpmyadmin:latest
@@ -67,7 +67,7 @@ services:
       driver: syslog
       options:
         syslog-address: "udp://localhost:514"
-        tag: "cms-db"
+        tag: "cms-myadmin"
 volumes:
   db_data:
   wp-content:
