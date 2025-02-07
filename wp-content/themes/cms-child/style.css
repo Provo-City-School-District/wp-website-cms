@@ -92,7 +92,7 @@ Post grid
 .searchResults .post:nth-child(odd),
 .postgrid .post:nth-child(odd),
 .staff-member-listing .personalvCard:nth-child(odd) {
-	background-color: var(--even-tile-bg-color);
+	background-color: var(--odd-tile-bg-color);
 }
 
 #mainHeader #cludo-search-form .search-submit {
